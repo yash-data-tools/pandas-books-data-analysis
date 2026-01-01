@@ -33,6 +33,14 @@ Using Pandas, the data is cleaned, transformed, analyzed, and exported into mult
 - Pandas
 - CSV
 
+## Project Workflow
+
+1. Raw book data is loaded from `data/messy.csv`
+2. Data is cleaned (duplicates removed, prices converted, ratings mapped)
+3. High-value books are filtered by price and rating
+4. Aggregated insights are generated using groupby
+5. Cleaned and analyzed datasets are exported to the `output/` folder
+
 ---
 
 ## Data Processing Steps
